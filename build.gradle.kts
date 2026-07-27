@@ -4,7 +4,7 @@ plugins {
     application
 }
 
-group = "YellowStarSoftware.SoftwareRenderer"
+group = "tabaquithemasteroftime.SoftwareRenderer"
 version = "1.0.0"
 
 repositories {
@@ -14,9 +14,9 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
-    implementation(files("/libs/YellowStar-0.0.17.jar"))
+    implementation(files("/libs/YellowStar-0.0.21.jar"))
 }
 
 application {
-    this.mainClass.set("yellowstarsoftware.softwarerenderer.Main")
+    this.mainClass.set("tabaquithemasteroftime.softwarerenderer.Main")
 }
