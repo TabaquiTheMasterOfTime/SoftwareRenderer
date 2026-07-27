@@ -1,6 +1,9 @@
 package tabaquithemasteroftime.softwarerenderer.application
 
-import tabaquithemasteroftime.softwarerenderer.awtutils.*
+import tabaquithemasteroftime.softwarerenderer.awtutils.Key
+import tabaquithemasteroftime.softwarerenderer.awtutils.KeyboardListener
+import tabaquithemasteroftime.softwarerenderer.awtutils.Renderer
+import tabaquithemasteroftime.softwarerenderer.awtutils.showWindow
 
 /**
  * Runs [this] [Application].
